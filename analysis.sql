@@ -1,3 +1,6 @@
+-- Customer Purchase Behavior & Revenue Analysis
+-- This project analyzes retail transaction data to understand how customers drive revenue and profit. I combined SQL and Python to clean data, engineer features like revenue and profit, and study sales trends over time. I performed RFM segmentation to classify customers into champions, loyal, at-risk, and lost groups, enabling targeted retention strategies. The analysis shows that a small portion of customers contributes most of the revenue, while some product categories generate higher profit despite lower sales volume. The project demonstrates end-to-end data analysis—from raw data to business recommendations—using realistic, production-style workflows.
+
 -- Total Revenue and Profit
 SELECT
     SUM(oi.quantity * oi.price) AS total_revenue,
